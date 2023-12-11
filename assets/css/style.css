@@ -1,8 +1,3 @@
-/*
-Author       : Masum Billah.
-Template Name: Tripx - Tour & Travel Agency Template
-Version      : 1.0
-*/
 /*=============================================================
     CSS INDEX
     =============================
@@ -509,9 +504,9 @@ fieldset {
 
 .no-padding { padding: 0 }
 /*END PRELOADER DESIGN*/
-.section-padding { padding: 130px 0; }
-.pt130 { padding-top: 130px!important; }
-.pb130 { padding-bottom: 130px!important; }
+.section-padding { padding: 80px 0; }
+.pt130 { padding-top: 80px!important; }
+.pb130 { padding-bottom: 80px!important; }
 .h130 { height: 130px; }
 /*START SECTION TITLE DESIGN*/
 .section-title{margin-bottom:60px;}
@@ -1081,6 +1076,8 @@ fieldset {
 .about_img{
 	padding-left: 25px;
 	position: relative;
+	width: 450px;
+	margin-left: 200px;
 }
 .about_img img{
 	border-radius: 40px;
@@ -1141,7 +1138,7 @@ fieldset {
 
 
 .pb_130{
-	padding-bottom: 130px;
+	padding-bottom: 80px;
 }
 .counter {
 	padding-top: 15px;
@@ -1198,7 +1195,7 @@ fieldset {
 
 .our_services{
 	background-color: #F3F7F6;
-	padding: 130px 0;
+	padding: 80px 0;
 }
 .service {
 	margin-bottom: 30px;
@@ -1297,9 +1294,9 @@ fieldset {
 .top_deals{
 	padding-bottom:160px;
 }
-#special_package{
+/* #special_package{
 	padding-top: 0;
-}
+} */
 .single_package {
 	margin: 0 0px 30px;
 	position: relative;
@@ -2131,7 +2128,7 @@ img{
 */
 
 .contact_area{
-	padding: 0 0 130px ;
+	padding: 0 0 80px ;
 }
 .contact_area .contact{
 	background-color: #fff;
@@ -2147,7 +2144,7 @@ img{
 }
 
 .pb130{
-	padding-bottom: 130px;
+	padding-bottom: 80px;
 }
 .single_cinfo i{
 	width: 45px;
