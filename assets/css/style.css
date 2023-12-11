@@ -1077,7 +1077,7 @@ fieldset {
 	padding-left: 25px;
 	position: relative;
 	width: 450px;
-	margin-left: 200px;
+	/* margin-left: 200px; */
 }
 .about_img img{
 	border-radius: 40px;
