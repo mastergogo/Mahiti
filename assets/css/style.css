@@ -1344,10 +1344,14 @@ fieldset {
 	z-index: 1;
 	color:#fff;
 	border-radius: 30px;
-	padding: 3px 30px;
-	font-weight: 500;
+	padding: 0 30px;
 	font-size: 23px;
 	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
+.tour_price span:first-child{
+	display: block;
 }
 .tour_price span {
 	color:#FF9933;
@@ -1578,7 +1582,8 @@ fieldset {
 }
 .deal_meta .sdmeta{
 	display: inline-block;
-	padding-right: 25px;
+	padding: 8px 0;
+	font-size: 14px;
 }
 
 .deal_meta i {
