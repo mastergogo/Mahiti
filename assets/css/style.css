@@ -2235,6 +2235,15 @@ img{
 	position: relative;
 	top: -66px;
 }
+
+.bank-info {
+	/* background: #FF9933; */
+	background: #63AB45;
+	box-shadow: 0 0 30px 0 rgba(6,30,98,.08);
+	color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+}
 .contact-form .btn_yellow{
 	border: 1px solid transparent;
 	margin-top: 20px;
@@ -2355,7 +2364,7 @@ img{
 
 
 .pt135{
-	padding-top: 135px!important;
+	/* padding-top: 135px!important; */
 }
 .footer {
 	padding: 70px 0 30px;
@@ -2568,7 +2577,6 @@ img{
 	font-weight: 500;
 }
 .tour_details{
-	padding-bottom: 0;
 	font-family: 'Montserrat', sans-serif;
 }
 .tour_duration i,
