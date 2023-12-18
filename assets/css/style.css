@@ -2364,7 +2364,7 @@ img{
 
 
 .pt135{
-	padding-top: 135px!important;
+	/* padding-top: 135px!important; */
 }
 .footer {
 	padding: 70px 0 30px;
