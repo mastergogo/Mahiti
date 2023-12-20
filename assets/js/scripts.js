@@ -111,24 +111,27 @@ Version      : 1.0
 		
 		
 		/*START Tour Details Slider JS*/	
-		$('.tour_slider').slick({
-			
-		  slidesToShow: 1,
-		  slidesToScroll: 1,
-		  arrows: true,
-		  fade: true,
-		  asNavFor: '.tour_slider_nav'
-		});
+		setTimeout(() => {
+			$('.tour_slider').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true,
+				fade: true,
+				asNavFor: '.tour_slider_nav'
+			  });
+			  
+			   $('.tour_slider_nav').slick({
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					asNavFor: '.tour_slider',
+					dots: true,
+					arrows: false,
+					centerMode: true,
+					focusOnSelect: true
+			  });
+			  console.log('delayeedddd')
+		}, 3000);
 		
-		 $('.tour_slider_nav').slick({
-			  slidesToShow: 4,
-			  slidesToScroll: 1,
-			  asNavFor: '.tour_slider',
-			  dots: true,
-			  arrows: false,
-			  centerMode: true,
-			  focusOnSelect: true
-		});
 		
 		
 
