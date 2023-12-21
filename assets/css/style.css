@@ -2248,10 +2248,15 @@ img{
 	border: 1px solid transparent;
 	margin-top: 20px;
 }
+
 .contact-form .btn_yellow:hover,
 .contact-form .btn_yellow:focus{
 	background: #63AB45;
 	color: #fff;
+}
+
+.contact-form iframe{
+	width: 100%;
 }
 .success {
     background: #fff none repeat scroll 0 0;
